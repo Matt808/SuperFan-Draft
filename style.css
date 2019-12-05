@@ -48,6 +48,35 @@ body {
 
 .contain-img { 
 	width:95%;
+} 
+
+.pinkblur:hover {
+	cursor: pointer;
+	background-color: #F608AC;
+}	
+.pinkblur:active {
+	filter:blur(5px);
+}
+.opaque:hover {
+	opacity: 0.5;
+}
+.button:active { 
+    transform: scale(0.95, 0.95);
+}
+.yes-cursor {
+	cursor: pointer;
+}
+.no-cursor {
+	cursor: default;
+}
+.all-grey {
+	filter: grayscale(100%);
+}
+.shadow {
+	filter: drop-shadow(3px 4px 4px);
+}
+.display-none {
+	display: none;
 }
 
 .blue {background-color: #a2adbf;}
