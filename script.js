@@ -66,4 +66,11 @@ function disappear8(elem){
     j.src = "images/Cole.png"; 
 } 
   
+function changeImage2(el){
+	i2.src = "images/2d.gif";
+	i2.classList.remove("all-grey");
+	i2.classList.remove("yes-cursor","opaque");
+} 
+
+
    
